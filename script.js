@@ -1,8 +1,17 @@
 
-let plan
-plan = prompt("Ingrese el plan")
-// let edad
-// edad = parseInt(prompt("Ingrese su edad"))
+var plan = document.getElementById("planElegido").value;
+
+var nombre = document.getElementById("defaultContactFormName").value
+
+var edad
+edad = parseInt(prompt("Ingrese su edad"))
+
+var edadSocio = document.getElementById("EdadSocio")
+console.log(edadSocio)
+
+edadSocio.value = edad
+
+
 // let casado
 // casado = prompt("esta casado")
 
