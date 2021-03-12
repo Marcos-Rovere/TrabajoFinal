@@ -2,6 +2,7 @@
     0% { transform: translateX(-100px);}
     100% { transform: translateX(0px);}
 }
+
 ul  {
     list-style: none;
 }
@@ -131,3 +132,4 @@ body {
     #logoPrincipal {margin-left: 0px; height: 150px;}
 
 }
+
